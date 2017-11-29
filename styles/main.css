@@ -1,0 +1,86 @@
+body{
+background-color: #ffffff;
+color: #000000;
+margin: 0 auto ;
+}
+
+
+header {
+  background-image: url(image/background.jpg);
+min-height: 80vh;
+background-repeat: no-repeat;
+background-position: center top;
+background-size: cover;
+display: flex;
+align-items: center;
+text-align: right;
+justify-content:  flex-end;
+
+
+
+
+}
+.cover
+{
+  background-color: tranparent;
+  padding: 2em ;
+  background-image: url(image/dechire.png);
+  border : 1px solid #FFF ;
+  background-position: right;
+  background-repeat: no-repeat;
+}
+
+
+.nastyadvert {
+  background-image: url(image/pub.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  min-height: 90vh;
+  position: relative;
+
+}
+.mypictures{
+
+
+}
+
+.mypictures  ul {
+  list-style-type: none;
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.mypictures li {
+  border: white solid 1em;
+  max-width: 30%;
+
+}
+
+
+.mypictures img {
+  width: 100%;
+}
+
+section {
+  max-width: 46em;
+  margin: 0 auto;
+  padding-top: 12em;
+  padding-bottom: 12em;
+
+}
+
+footer {
+  background-color: #ffffff;
+  color:#000000;
+  padding: 2em;
+}
+
+footer ul {
+list-style-type: none;
+}
+
+footer a {
+  color: #000000
+
+}
